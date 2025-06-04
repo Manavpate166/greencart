@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import { useAppContext } from "../context/AppContext";
 import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
-import navigate from "react-router-dom";
+
 const Loading = () => {
     const {navigate} = useAppContext(); 
     let {search} = useLocation();
